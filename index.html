@@ -1,11 +1,42 @@
 <html>
 <head>
-  <title>Greensock demo</title>
+  <title>SWA lowfare calendar demo</title>
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Oxygen:400,700,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <h2>Taco time!</h2>
+  <section class="main">
+    <header>
+      <img src="images/FPO_lowfare_header.jpg" height="179" width="938" alt="">
+    </header>
+    <div class="departure">
+      <div class="cal_depart_header">
+        <img src="images/FPO_lowfare_depart_header.jpg" height="82" width="937" alt="">
+      </div>
+      <div class="cal_depart_container">
+        <div class="cal_depart">
+          <div class="fade_overlay"></div>
+          <img src="images/FPO_lowfare_depart_calDay.jpg" height="103" width="119" alt="" class="depart_day">
+          <!-- <img src="images/FPO_lowfare_depart_cal.jpg" height="607" width="938" alt=""> -->
+        </div>
+      </div>
+    </div>
+    <div class="arrival">
+      <div class="cal_arrival_header">
+        <img src="images/FPO_lowfare_arrival_header.jpg" height="82" width="937" alt="">
+      </div>
+      <div class="cal_arrival_cal">
+        <img src="images/FPO_lowfare_arrival_cal.jpg" height="592" width="938" alt="">
+      </div>
+    </div>
+    <div class="legal">
+      <img src="images/FPO_lowfare_legal.jpg" height="199" width="938" alt="">
+    </div>
+    <div class="fare_overlay">
+      <img src="images/FPO_lowfare_footer1.jpg" alt="" height="95" width="938" id="fare_start">
+      <img src="images/FPO_lowfare_footer2.jpg" height="95" width="938" alt="" id="fare_end">
+    </div>
+  </section>
 </body>
 <script type="text/javascript" src="js/script.js"></script>
 <!-- add port listening for gulp-livereload -->

@@ -31,7 +31,7 @@ gulp.task('run_sass', function() {
 
 gulp.task('run_js', function() {
   gulp.src(jsSources)
-          .pipe(uglify())
+          // .pipe(uglify())
           .pipe(concat('script.js'))
           .pipe(gulp.dest('js'))
 });

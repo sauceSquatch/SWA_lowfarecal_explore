@@ -13,7 +13,46 @@
 
 
 body {
-  background-color: $BG_gray;
+  background-color: $white;
   font-family: $bodyFont;
   font-size: 1.4em;
+}
+.main {
+  width: 938px;
+  margin: 0 auto;
+}
+
+.cal_depart_container {
+  height: 602px;
+  overflow: hidden;
+  .cal_depart {
+    position: relative;
+    background: url(../images/FPO_lowfare_depart_cal.jpg) no-repeat;
+    height: 607px;
+    .depart_day {
+      position: absolute;
+      left: 287px;
+      top: 148px;
+      cursor: hand;
+    }
+  }
+}
+
+
+.departure {
+  .fade_overlay {
+    position: absolute;
+    background-color: $blue_selected;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.fare_overlay {
+  position: fixed;
+  left: 0px;
+  height: 95px;
+  width: 100%;
+  background-color: $white;
 }
