@@ -13853,6 +13853,7 @@ selectReturnDay = function(evt) {
   if(calIsCollapsed) {
     TweenLite.to(arriveDay, 0.25, {alpha:1});
     TweenLite.to(arrivalCal3, baseSpeed, {alpha:1});
+    TweenLite.to(fareEnd, baseSpeed, {alpha:1});
   }
 }
 
